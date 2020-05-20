@@ -1,0 +1,4 @@
+useDynLib(KeyboardCheckeR, .registration=TRUE)
+export(getKeyboard)
+export(QueryKeyboard)
+importFrom(Rcpp, evalCpp)

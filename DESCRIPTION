@@ -1,0 +1,11 @@
+Package: KeyboardCheckeR
+Type: Package
+Title: Query Your Keyboard Strokes
+Version: 1.0
+Date: 2020-05-20
+Author: Stephen Kozak
+Maintainer: Stephen Kozak <StephenKozak38@gmail.com>
+Description: This package was built to allow easy keyboard reading in R. Calling QueryKeyboard() will return a character vector of all hit supported keys. 
+License: GPL (>= 2)
+Imports: Rcpp (>= 1.0.4)
+LinkingTo: Rcpp
